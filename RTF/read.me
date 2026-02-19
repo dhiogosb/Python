@@ -1,0 +1,50 @@
+# 🗄️ RTF - Reader Text File
+
+Aplicação desktop em Python para importar arquivos CSV/TXT, criar automaticamente um banco SQLite e permitir consultas dinâmicas através de interface gráfica.
+
+O sistema permite importar múltiplos arquivos, gerar tabelas automaticamente com base no nome do arquivo e realizar pesquisas por qualquer coluna, com exportação para Excel.
+
+---
+
+## 🚀 Funcionalidades
+
+✔ Importação de arquivos `.csv` e `.txt`  
+✔ Criação automática do banco `database.db`  
+✔ Criação automática de tabelas com nome baseado no arquivo  
+✔ Seleção de tabela para consulta  
+✔ Filtro dinâmico por qualquer coluna  
+✔ Exibição dos dados em interface gráfica  
+✔ Exportação do resultado para Excel  
+✔ Minimização para bandeja do sistema (System Tray)  
+✔ Código organizado em classes  
+
+---
+
+## 🖥️ Interface
+
+- Interface construída com **Tkinter**
+- Banco de dados **SQLite**
+- Manipulação de dados com **Pandas**
+- Exportação Excel via `to_excel`
+- Ícone na bandeja com **pystray**
+
+---
+
+## 📦 Tecnologias Utilizadas
+
+- Python 3.10+
+- pandas
+- sqlite3
+- tkinter
+- pystray
+- pillow (PIL)
+
+---
+
+## ⚙️ Instalação
+
+Clone o repositório:
+
+```bash
+git clone https://github.com/seu-usuario/sqlite-data-manager.git
+cd sqlite-data-manager
